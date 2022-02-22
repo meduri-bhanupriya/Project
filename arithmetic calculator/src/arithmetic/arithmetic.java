@@ -1,16 +1,16 @@
 package arithmetic;
-import java.util.Scanner;											//imported to use scanner--> get the user input;
+import java.util.Scanner;											
 
 public class arithmetic{
 
-    public static void main(String[] args) {  						//main driver method
+    public static void main(String[] args) {  						
     	char c=0;
         int choice;
         Scanner input = new Scanner(System.in);	
         
-        // do while loop to run calculator for multiple cycles until user enters 'e' to exit the loop
+        
         do {	
-        					//predefined standard input object
+        				
         	System.out.println("Please Select Operation to Perform:");
 	        System.out.println("1-Addition");
 	        System.out.println("2-Subtraction");
@@ -51,7 +51,7 @@ public class arithmetic{
 	        
 	        choice = input.next().charAt(0);		//charAt(0) -->returning the char present at index 0       										
 	    
-        	}while(choice!='e');								//loop will run until user enters 'e'
+        	}while(choice != 'e');							//loop will run until user enters 'e'
         input.close();											//closing the input stream
     } 
   
