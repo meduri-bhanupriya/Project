@@ -1,29 +1,7 @@
-package pack1;
-
-public class proaccessspecifiers {
-
-	protected void display() 
-    { 
-        System.out.println("This is protected access specifier"); 
-    } 
-}
-
-//create another package
-package pack2;
-
-import pack1.*;
-
-public class accessSpecifiers3 extends proaccessspecifiers {
-
+public class accessSpecifiers3 {
 	public static void main(String[] args) {
-		accessSpecifiers3 obj = new accessSpecifiers3 ();   
-	       obj.display();  
+		accessSpecifiers3 D =new accessSpecifiers3();
+		System.out.println("This is Protected access specifier");
 	}
 
 }
-
-
-
-
-
-
