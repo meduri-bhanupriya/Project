@@ -14,7 +14,7 @@ public void area(int b,int h)
    {
 
 methodOverloading ob=new methodOverloading();
-       ob.area(,12);
+       ob.area(12);
        ob.area(5);  
    }
 }
