@@ -36,7 +36,7 @@ class ThreadedSend extends Thread
         } 
     } 
 } 
-class SyncDemo 
+class synchronization
 { 
     public static void main(String args[]) 
     { 
@@ -47,7 +47,7 @@ class SyncDemo
             new ThreadedSend( " Bye " , snd ); 
         S1.start(); 
         S2.start(); 
-        try
+        /*try
         { 
             S1.join(); 
             S2.join(); 
@@ -55,6 +55,6 @@ class SyncDemo
         catch(Exception e) 
         { 
             System.out.println("Interrupted"); 
-        } 
+        } */
     } 
 } 
